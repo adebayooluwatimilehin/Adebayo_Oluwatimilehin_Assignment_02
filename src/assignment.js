@@ -33,12 +33,11 @@ assignment.sumOfNumbers = sumOfNumbers;
  * 
  * Count all even numbers within an array of numbers.
  * If you did Challenge - 2, remove the comment in the line just after this function
- * y
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-  // filter only even numbers and reurn a new array with numbers that match the conditions in the filter function
+  // filter only even numbers and return a new array with numbers that match the conditions in the filter function
   // filter function
   const evencount = arrayOfNumbers.filter(number => {
     return number % 2 === 0;
